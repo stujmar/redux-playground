@@ -4,7 +4,7 @@
   "description": "A place to learn redux",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js --port 6666",
+    "old start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
     "serve": "webpack serve --config webpack.config.dev.js --progress",
     "test": "test"
   },
