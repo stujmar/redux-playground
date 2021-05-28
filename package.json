@@ -1,0 +1,19 @@
+{
+  "name": "redux-playground",
+  "version": "1.0.0",
+  "description": "A place to learn redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stujmar/redux-playground.git"
+  },
+  "author": "Stuart Marsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stujmar/redux-playground/issues"
+  },
+  "homepage": "https://github.com/stujmar/redux-playground#readme"
+}
