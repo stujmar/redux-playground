@@ -1,9 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
+import HomePage from "./components/home/HomePage";
 
-function Hi() {
-  //   debugger;
-  return <p>Hi.</p>;
-}
-
-render(<Hi />, document.getElementById("app"));
+render(<HomePage />, document.getElementById("app"));
