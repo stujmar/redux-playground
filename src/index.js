@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 
 function Hi() {
-  debugger;
+  //   debugger;
   return <p>Hi.</p>;
 }
 
