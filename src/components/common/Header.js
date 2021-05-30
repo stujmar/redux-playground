@@ -5,8 +5,9 @@ const Header = () => {
 const activeStyle = {color: "#F15B2A"}
 
     return (
-        <nav>
+        <nav  style={{paddingBottom: "12px"}}>
             <NavLink to="/" activeStyle={activeStyle} exact>Home</NavLink>{" | "}
+            <NavLink to="/courses" activeStyle={activeStyle} exact>Courses Page</NavLink>{" | "}
             <NavLink to="/about" activeStyle={activeStyle} exact>About</NavLink>
         </nav>
     )
