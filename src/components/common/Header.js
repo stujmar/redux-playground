@@ -6,7 +6,7 @@ const activeStyle = {color: "#F15B2A"}
 
     return (
         <nav>
-            <NavLink to="/" activeStyle={activeStyle} exact>Home</NavLink>
+            <NavLink to="/" activeStyle={activeStyle} exact>Home</NavLink>{" | "}
             <NavLink to="/about" activeStyle={activeStyle} exact>About</NavLink>
         </nav>
     )
