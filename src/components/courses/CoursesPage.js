@@ -1,19 +1,13 @@
 import React from 'react';
 
 class CoursesPage extends React.Component {
-    constructor(props) {
-        super(props);
+    state = {
+        course: {
+            title: ""
+        }
+    };
 
-        this.state = {
-            course: {
-                title: ""
-            }
-        };
-
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange(event) {
+    handleChange = (event) => { // State 3 class field? arrow functions inherit bind this scope.
         const course = {...this.state.course, title: event.target.value};
         this.setState({ course }); // Object shorthand syntax
         // this.setState({ course: course });
