@@ -13,4 +13,4 @@ const activeStyle = {color: "#F15B2A"}
     )
 }
 
-export default Header
+export default Header;
