@@ -6,10 +6,10 @@ import App from "./components/App";
 import { Provider } from "react-redux";
 
 render(
-  <Provider store={this.props.store}>
+  // <Provider store={this.props.store}>
     <Router>
       <App />
-    </Router>
-  </Provider>,
+    </Router>,
+  {/* </Provider>, */}
   document.getElementById("app")
 );
