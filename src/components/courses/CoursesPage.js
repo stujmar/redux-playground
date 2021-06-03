@@ -48,4 +48,10 @@ CoursesPage.propTypes = {
     courses: PropTypes.array.isRequired
 }
 
-export default connect(mapStateToProps)(CoursesPage);
+function mapDispatchToProps(dispatch) {
+    return {
+        createCourse: course => dispatch(courseActions.createCourse(course))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(CoursesPage);
