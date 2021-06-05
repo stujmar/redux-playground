@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
     "prestart:api": "node tools/createMockDb.js",
+    "prestart:serve": "node tools/createMockDb.js",
     "serve": "webpack serve --config webpack.config.dev.js --progress",
     "test": "test"
   },
