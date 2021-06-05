@@ -4,7 +4,8 @@
   "description": "A place to learn redux",
   "main": "index.js",
   "scripts": {
-    "old start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
+    "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
+    "prestart:api": "node tools/createMockDb.js",
     "serve": "webpack serve --config webpack.config.dev.js --progress",
     "test": "test"
   },
