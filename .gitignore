@@ -25,6 +25,9 @@ build/Release
 # Dependency directory
 node_modules
 
+# API
+db.json
+
 # Build folder
 build
 
